@@ -42,7 +42,7 @@ function App() {
   const [musicToAdd, setMusicToAdd] = useState('')
 
   //you must enter an valid spotify token
-  const token = 'BQCa0TQ3O18Hv29CscB5A1JNkB1eT4TBKUg4twOwWUGsXqkG8341aCIjKP0mrv8PTid4FnTw5JMx0GEdM_Q9MnCX5VQqhIvTxKA7V2AC8Fo-qdJRDg_hACsrPJnKZZ7PX6q6WegzdxunVYBE0Uax-_tD6VR0zf9cP3PW0N4AR5XDWmPuLdfWh3N7I1zl-C5SUDRQ_EHBDS3quCsJ1yiGttA7hFIIDKhV'
+  const token = 'BQBCSSLxX_9_4nLhTZyELRh0kMqztCBdzf_d_uWBI9oEh92KVX5JO-MZU29ajhKJ1bnfq3qVLPdH5-Ko2lw6RIVhKj0luzHn4nZ6SdNnYf_f2TU4ciLSCiFZHIaTfhnLIhT5HGUJVIxncNSz9J7hziVzW2_IwkROPrfbTrMvLS18Chb47NFTupnxRuaoh_vW7HstPwbnIcoO5kCeaelWsVARYxyUSdEF'
 
   //you must enter an valid playlist id
   //const playlistID = '1xW6dC9bYbKCMZ9aFKPcYk'
