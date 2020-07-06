@@ -1,0 +1,21 @@
+.middleHeader{
+  margin-top: 20px;
+  margin-bottom: 2px solid #000;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.clava{
+  margin-left: 15px;
+  height: 46px;
+  width: 46px;
+}
+
+.bar-logo{
+  position: absolute;
+  width: 146px;
+  height: 120px;
+  left: 195px;
+  top: 5%;
+}

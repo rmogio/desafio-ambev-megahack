@@ -1,0 +1,166 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font: 16px sans-serif;
+  color: #222;
+  background-color:#ffd6d6;
+}
+
+body, input, button{
+  font: 16px Roboto,  sans-serif;
+}
+
+button{
+  cursor: pointer
+}
+
+main{
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+.music{
+  margin-top: 30px;
+  border-top: 2px solid #f56464;
+  border-bottom: 2px solid #f56464;
+  background: url('../../assets/background.svg') no-repeat;
+  height:380px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form strong{
+  margin-top: 10px;
+  width:173px;
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  color: #F56464;
+}
+
+.input-group{
+  width: 90%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input-group input{
+  font: inherit;
+  width:260px;
+  height:41px;
+  border-radius:34px;
+  border:0;
+  text-align: center;
+  flex:1;
+  margin-right: 6px;
+}
+
+.input-group button{
+  border:none;
+  outline: 0;
+  border-radius: 50%;
+  height:41px;
+  width: 41px;
+  background-color: #f56464
+}
+
+.input-group img{
+  width: 18px;
+  height:16px
+}
+
+.player{
+  margin-top: 16px;
+}
+
+.votate{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.votate h2{
+  width:190px;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+  color: #F56464;
+}
+
+ul{
+  list-style: none;
+}
+
+.music-item{
+  display: flex;
+  align-items: top;
+  justify-content: space-around;
+  width:90%;
+  margin: 12px auto;
+}
+
+.music-info{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #f56464;
+  border-radius: 11px;
+  height: 49px;
+  color:#dedede
+}
+
+.music-item button{
+  height:49px;
+  width: 49px;
+  border-radius: 50%;
+  outline:0;
+  border:0;
+  margin-left: 5px;
+}
+
+.music-item span{
+  margin: 0 4px;
+}
+
+.music-status{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.music-like, .music-dislike{
+  background: #fff;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 50%;
+  color:#f56464;
+}
+
+.like{
+  background: #5EED5C;
+}
+
+.dislike{
+  background: #D72E2E;;
+}
+
+
+
+
+

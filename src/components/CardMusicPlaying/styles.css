@@ -1,0 +1,25 @@
+.card-playing{
+  width: 166px;
+  height:180px;
+
+  position: absolute;
+  left: 104px;
+  top: 311px;
+}
+
+.card-playing img{
+  width: 166px;
+  height: 166px;
+  border-radius: 8px;
+}
+
+.card-info-playing{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  text-align: center;
+  width:100%;
+  color: whitesmoke;
+  background: rgba(0, 0, 0, 0.9);
+  border-radius: 4px;
+}
